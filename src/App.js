@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { useSelector } from 'react-redux';
 import './App.css';
+import Menu from './component/Menu';
+import Quiz from './component/Quiz';
+import Score from './component/Score';
 
 function App() {
+  const {position} = useSelector((store)=>store.gameState)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {position==="menu" && <Menu/>}
+      {position==="quiz" && <Quiz/>}
+      {position==="score" && <Score/>}
     </div>
   );
 }

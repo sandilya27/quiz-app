@@ -1,0 +1,42 @@
+export const questions = [
+    {
+        "question" : "Which of the following is used in React.js to increase performance?",
+        "optionA" : "Virtual DOM",
+        "optionB" : "Orignal DOM",
+        "optionC" : "Both A and B",
+        "optionD" : "None of the above",
+        "correct" : "A",
+    },
+    {
+        "question" : "Which of the following command is used to install create-react-app?",
+        "optionA" : "npm install -g create-react-app",
+        "optionB" : "npm install create-react-app",
+        "optionC" : "npm install -f create-react-app",
+        "optionD" : "install -g create-react-app",
+        "correct" : "A",
+    },
+    {
+        "question" : "Which of the following acts as the input of a class-based component?",
+        "optionA" : "Class",
+        "optionB" : "Factory",
+        "optionC" : "Render",
+        "optionD" : "Props",
+        "correct" : "D",
+    },
+    {
+        "question" : "How many numbers of elements a valid react component can return?",
+        "optionA" : "4",
+        "optionB" : "3",
+        "optionC" : "2",
+        "optionD" : "1",
+        "correct" : "D",
+    },
+    {
+        "question" : "What is a state in React?",
+        "optionA" : "A permanent storage",
+        "optionB" : "Internal storage of the component",
+        "optionC" : "External storage of the component",
+        "optionD" : "None of the above",
+        "correct" : "B",
+    },
+]
